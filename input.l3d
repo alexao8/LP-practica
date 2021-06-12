@@ -1,0 +1,11 @@
+PROC main() IS
+    color(1,1,1)
+    FOR i FROM 1 TO 12 DO
+        FOR j FROM 1 TO 75 DO
+            forward(100)
+            backward(100)
+            right(2)
+        END
+        forward(250)
+    END
+END
