@@ -1,4 +1,4 @@
-#Pràctica de Python i Compiladors - LP Q2 2020-2021
+# Pràctica de Python i Compiladors - LP Q2 2020-2021
 
 Aquesta pràctica tracta sobre el desenvolupament amb ANTLR4 i Python d'un llenguatge anomenat LOGO 3D i el seu interpret.
 
@@ -6,7 +6,7 @@ Logo3D és un llenguatge inspirat en el llenguatge LOGO, que té com objectiu en
 
 Per aquest treball s'han desenvolupat els següents fitxers:
 
-##logo3d.g (ANTLR4)
+## logo3d.g (ANTLR4)
 
 Aquest fitxer conté la gràmatica sense context del llenguatge i amb ell generarem el parser i el lexer i els tokens per poder interpretar el llenguatge.
 
@@ -18,7 +18,7 @@ antlr4 -Dlanguage=Python3 -no-listener -visitor Expr.g
 
 Això generarà els arxius: logo3d.tokens, logo3dLexer.py, logo3dLexer.tokens, logo3dParser.py i logo3dVisitor.py.
 
-##visitor.py (Python)
+## visitor.py (Python)
 
 Una vegada tenim una gramàtica construida, falta donar-li context i significat a les instruccions que hem creat a logo3d.g. Per això crearem el visitor.py que heredarà de logo3dVisitor.py per implenetar les seves funcions.
 
@@ -26,11 +26,11 @@ Aquí trobarem l'especfiació del llenguatge, on consultarà la funcionalitat de
 
 Per això, tenim una funció per cada cas indicat al logo3d.g.
 
-##logo3d.py (Python)
+## logo3d.py (Python)
 
 A aquest arxiu tenim un scrpit que processa l'arribada per consola a interpretar i que utilitza el nostre visitor per, com ja hem dit, visitar l'arbre generat amb ANTLR4 anterioriment.
 
-##turtle3d.py (Python)
+## turtle3d.py (Python)
 
 Aquest arxiu conté la classe tutrle3D que és l'encarregada de la generació de les figures geomètriques que volguem crear amb el nostre llenguatge logo 3D.
 
@@ -46,7 +46,7 @@ La nostra torturga té diferents funcions:
 - home(): Porta la tortuga al origen de coordenades.
 - color(): indica quin color volem que pinti la tortuga.
 
-##generació de l'interpret
+## generació de l'interpret
 
 Una vegada tenim tots els fitxers, només necessitem utilitzar la següent comanda per consola per iniciar l'interpret tot passant un arxiu .l3d que contindrà el codi del nostre llenguatge logo 3D.
 
@@ -60,7 +60,7 @@ Per definició, el primer procediment a executar-se es el main, si volem executa
 python3 logo3d.py programa.l3d quadrats 10 20
 ```
 
-##Llibreries
+## Llibreries
 Les llibreries utilitzades han estat:
 
 - `vpython` per fer els gràfics 3D.
@@ -75,7 +75,7 @@ Les llibreries utilitzades han estat:
 
 Al fitxer `requeriments.txt` es poden trobar les llibreries necessaries per aquesta pràctica i la manera d'instal·lar-ho.
 
-##License
+## Autor
 Alexandre Alemany Orfila
 [Alexao8]
 (https://github.com/alexao8)
