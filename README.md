@@ -13,7 +13,7 @@ Aquest fitxer conté la gràmatica sense context del llenguatge i amb ell genera
 Per generar-ho utilitzarem aqusta comanda per consola:
 
 ```bash
-antlr4 -Dlanguage=Python3 -no-listener -visitor Expr.g
+antlr4 -Dlanguage=Python3 -no-listener -visitor logo3d.g
 ```
 
 Això generarà els arxius: logo3d.tokens, logo3dLexer.py, logo3dLexer.tokens, logo3dParser.py i logo3dVisitor.py.
