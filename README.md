@@ -28,7 +28,7 @@ Per això, tenim una funció per cada cas indicat al logo3d.g.
 
 ## logo3d.py (Python)
 
-A aquest arxiu tenim un scrpit que processa l'arribada per consola a interpretar i que utilitza el nostre visitor per, com ja hem dit, visitar l'arbre generat amb ANTLR4 anterioriment.
+A aquest arxiu tenim un scrpit que processa l'arribada per consola a interpretar i que utilitza el nostre visitor per, com ja hem dit, visitar l'arbre generat amb ANTLR4 anteriorment.
 
 ## turtle3d.py (Python)
 
