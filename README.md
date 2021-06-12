@@ -76,7 +76,7 @@ Les llibreries utilitzades han estat:
 Al fitxer `requeriments.txt` es poden trobar les llibreries necessaries per aquesta pràctica i la manera d'instal·lar-ho.
 
 ```bash
-pip install -r requeriments.txt
+pip install -r requeirements.txt
 ```
 
 ## Autor
