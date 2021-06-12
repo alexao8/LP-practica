@@ -77,6 +77,5 @@ Al fitxer `requeriments.txt` es poden trobar les llibreries necessaries per aque
 
 ## Autor
 Alexandre Alemany Orfila
-[Alexao8]
-(https://github.com/alexao8)
+
 [alexao8](https://github.com/alexao8)
